@@ -4,6 +4,7 @@ class String
 
   def sentence?
     if self.any?(".")
+    end
   end
 
   def question?
