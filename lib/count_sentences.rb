@@ -3,8 +3,7 @@ require 'pry'
 class String
 
   def sentence?(phrase)
-    if phrase.split.include?(".")
-    end
+    self.include?(".")
   end
 
   def question?
