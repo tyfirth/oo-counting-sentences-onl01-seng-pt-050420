@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?
-    if self.include?(".")
+  def sentence?(phrase)
+    if phrase.split.include?(".")
     end
   end
 
